@@ -15,6 +15,16 @@ data:
       - roboshop-admin
       userarn: arn:aws:iam::558232169669:user/sai
       username: sai
+
+    # Add multiple users to same group
+    - groups:
+      - roboshop-trainee
+      userarn: arn:aws:iam::558232169669:user/alice
+      username: alice
+    - groups:
+      - roboshop-trainee
+      userarn: arn:aws:iam::558232169669:user/bob
+      username: bob
 kind: ConfigMap
 metadata:
   creationTimestamp: "2026-01-02T05:44:15Z"
