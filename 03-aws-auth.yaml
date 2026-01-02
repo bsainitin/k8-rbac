@@ -11,7 +11,10 @@ data:
       - roboshop-trainee
       userarn: arn:aws:iam::558232169669:user/nitin
       username: nitin
-
+    - groups:
+      - roboshop-admin
+      userarn: arn:aws:iam::558232169669:user/sai
+      username: sai
 kind: ConfigMap
 metadata:
   creationTimestamp: "2026-01-02T05:44:15Z"
