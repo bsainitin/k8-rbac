@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  annotations:
+    eks.amazonaws.com/role-arn: arn:aws:iam::558232169669:role/eksctl-roboshop-dev-addon-iamserviceaccount-r-Role1-BXKkatXNUMaG
+  name: secret-reader
+  namespace: roboshop
